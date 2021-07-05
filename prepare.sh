@@ -1,1 +1,1 @@
-cd ./source && hugo -d "../docs" --cleanDestinationDir
+cd ./source && hugo -d "../"
