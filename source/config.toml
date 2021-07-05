@@ -1,8 +1,5 @@
 baseURL = "https://example.edu/"
 
-# set your your own ga token here.
-googleAnalytics = "UA/G-11111-1112"
-
 languageCode = "en-us"
 
 # for using avicenna you need to set the `themes` to 'avicenna'
