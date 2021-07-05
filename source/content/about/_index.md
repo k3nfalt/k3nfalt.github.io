@@ -75,7 +75,7 @@ publications:
 
 ---
 
-Hi! I am a postdoctoral fellow at KAUST, Visual Computing Center, where I work on modern optimization tasks with [Professor Peter Richtárik][1]. Previously, I defended my Ph.D. thesis at Higher School of Economics with my former supervisor Professor Alexander Gasnikov.
+Hi! I am a postdoctoral fellow at KAUST, Visual Computing Center, where I work on modern optimization tasks with [Professor Peter Richtárik][1]. Previously, I defended my Ph.D. thesis at Higher School of Economics with my former supervisor, Professor Alexander Gasnikov.
 
 I also worked at Yandex Self-Driving Cars, Perception team, where I developed real-time computer vision algorithms for self-driving cars.
 
