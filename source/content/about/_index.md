@@ -9,6 +9,7 @@ cv: "Curriculum_Vitae.pdf"
 email: "alexandertiurin(at)gmail.com"
 
 socials:
+    google_scholar: "Es8-xocAAAAJ"
     twitter: "sanek_sanekT"
     facebook: "alexander.tiurin"
     linkedin: "alexander-tyurin-95800bb4"
@@ -75,8 +76,9 @@ publications:
 
 ---
 
-Hi! I am a postdoctoral fellow at KAUST, Visual Computing Center, where I work on modern optimization tasks with [Professor Peter Richtárik][1]. Previously, I defended my Ph.D. thesis at Higher School of Economics with my former supervisor, Professor Alexander Gasnikov.
+Hi! I am a postdoctoral fellow at KAUST, Visual Computing Center, where I work on modern optimization tasks with [Professor Peter Richtárik][1]. Previously, I defended my Ph.D. thesis at Higher School of Economics with my former supervisor, [Professor Alexander Gasnikov][2].
 
 I also worked at Yandex Self-Driving Cars, Perception team, where I developed real-time computer vision algorithms for self-driving cars.
 
 [1]: https://richtarik.org
+[2]: https://scholar.google.ru/citations?user=AmeE8qkAAAAJ
