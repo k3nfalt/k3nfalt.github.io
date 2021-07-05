@@ -4,6 +4,10 @@ body {
     color: #071013;
 }
 
+.boxed {
+    border: 1px solid green ;
+}
+
 .image {
     margin-left: 0;
     margin-right: 0;
