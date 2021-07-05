@@ -1,0 +1,16 @@
+baseURL = "https://example.edu/"
+
+# set your your own ga token here.
+googleAnalytics = "UA/G-11111-1112"
+
+languageCode = "en-us"
+
+# for using avicenna you need to set the `themes` to 'avicenna'
+theme = "avicenna"
+
+# This is your page title, it appears in your tab
+title = "Alexander Tyurin's Biography"
+
+[params]
+# it is used for the copy-right section of your page
+name = "Alexander Tyurin"

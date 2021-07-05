@@ -1,0 +1,63 @@
+{{ $content_type := .Params.content_type }}
+{{if $content_type}}
+{{ $t := .Site.GetPage $content_type }}
+{{ $rscPages := $t.Resources.ByType "page"}}
+
+{{if gt (len $rscPages) 0}}
+<div class="publications row w-100">
+    <div class="col w-100">
+        {{ range $index, $page := $rscPages}}
+        <div class="publication row  w-100">
+            
+            {{ $tmp1 := replace $page.Params.latex "--" "-"}}
+            {{ $tmp1 := split $tmp1 "textit{" }}
+            {{ $tmp1 := index $tmp1 1}}
+            {{ $tmp2 := split $tmp1 "}"}}
+            {{ $authors_new := index $tmp2 0}}
+            {{ $tmp3 := index $tmp2 1}}
+            {{ $tmp3 := split $tmp3 "normalfont"}}
+            {{ $tmp3 := index $tmp3 1}}
+            {{ $tmp4 := split $tmp3 "//"}}
+            {{ $publication := index $tmp4 0}}
+            {{ $journal_info := index $tmp4 1}}
+
+
+            <div class="section-1 w-100">
+
+                <span>
+                    [{{add $index 1}}]
+                </span>
+
+                <span style="font-style: italic;">
+                    {{$authors_new}}
+                </span>
+                
+                <span style="white-space: pre-line;">
+                    {{$publication}} // {{$journal_info}}
+                </span>
+
+            </div>
+
+            {{ $links := $page.Params.links }}
+            {{ if $links }}
+            <div class="section-3  w-100">
+                {{range $link_name, $link_url := $links}}
+                    {{ if $link_url }}
+                <a class="main_color text-decoration-none rounded" href="{{$link_url}}" target="_blank">
+                    {{$link_name}}
+                </a>
+                    {{end}}
+                {{end}}
+            </div>
+            {{end}}
+
+
+
+        </div>
+
+        {{end}}
+
+    </div>
+    {{end}}
+</div>
+{{end}}

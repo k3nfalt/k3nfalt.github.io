@@ -1,0 +1,90 @@
+{{ $content_type := .Params.content_type }}
+
+{{ $aboutPage := .Site.GetPage $content_type }}
+
+{{ if or $aboutPage.Params.academia $aboutPage.Params.interests}}
+{{ if $aboutPage.Params.interests }}
+<div class="interests col ">
+    <h4 class="main_color">Interests</h4>
+    <ul>
+        {{range $aboutPage.Params.interests }}
+        <li>
+            {{.}}
+        </li>
+        {{end}}
+    </ul>
+</div>
+{{end}}
+
+{{if $aboutPage.Params.academia}}
+<div class="academia col">
+    <h4 class="main_color">Education</h4>
+    {{range $academia := $aboutPage.Params.academia}}
+    <div class="row">
+        <div class="course col">
+            <div class="degree_major row">
+                <div class="text-muted col">
+                    {{$academia.course.degree}} {{$academia.course.major}}
+
+                    {{if $academia.course.minor }}
+                    , Minor: {{$academia.course.minor}}
+                    {{end}}
+                </div>
+            </div>
+            <div class="institution_dates row">
+                <div class="institution col" id="institution_title">
+                    {{$academia.course.institution}}, {{$academia.course.department}}
+                </div>
+                <div class="main_color dates col-md-auto  justify-content-end">
+                    {{$academia.course.start_date}}
+                    {{ if $academia.course.end_date }}
+                    - {{$academia.course.end_date}}
+                    {{else}}
+                    - present
+                    {{end}}
+                </div>
+            </div>
+            {{if $academia.course.thesis}}
+            <div class="other_info row">
+                <div class="col">
+                    Ph.D. thesis: <a class="url_color" href="{{$academia.course.thesis_url}}" target="_blank">
+                        {{$academia.course.thesis}}
+                    </a>
+                </div>
+            </div>
+            {{end}}
+        </div>
+    </div>
+    {{end}}
+</div>
+{{end}}
+
+{{if $aboutPage.Params.jobs}}
+<div class="academia col">
+    <h4 class="main_color">Work experience</h4>
+    {{range $job := $aboutPage.Params.jobs}}
+    <div class="row">
+        <div class="course col">
+            <div class="degree_major row">
+                <div class="text-muted col">
+                    {{$job.job.position}}
+                </div>
+            </div>
+            <div class="institution_dates row">
+                <div class="institution col" id="institution_title">
+                    {{$job.job.name}}
+                </div>
+                <div class="main_color dates col-md-auto  justify-content-end">
+                    {{$job.job.start_date}}
+                    {{ if $job.job.end_date }}
+                    - {{$job.job.end_date}}
+                    {{end}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{end}}
+</div>
+{{end}}
+
+{{end}}
