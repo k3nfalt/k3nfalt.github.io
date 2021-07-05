@@ -57,7 +57,7 @@ jobs:
         end_date: '2021'
     - job:
         position: "Junior research fellow"
-        name: "Higher School of Economics"
+        name: "Higher School of Economics, HDI LAB"
         start_date: '2017'
         end_date: '2021'
     - job:
