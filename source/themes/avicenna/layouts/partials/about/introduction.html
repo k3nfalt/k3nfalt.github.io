@@ -19,15 +19,10 @@
     <div class="w-100 justify-content-center">
         {{ range $key, $value := $aboutPage.Params.affiliations }}
         <div class="row w-100 justify-content-center" id="title-name">
-            <span class="" id="title">
-                {{$value.affiliation.title}},
-            </span>
+            <p style="white-space: pre;">{{$value.affiliation.title}}, </p>
             <a class="url_color text-decoration-none rounded " href="{{$value.affiliation.url}}" target="_blank">
                 {{$value.affiliation.name}}
             </a>
-            <!-- {{ if $value.affiliation.logo }}
-            <p><img class="img" src="images/{{$value.affiliation.logo}}" style="display: inline-block; height: 1em;"></p>
-            {{end}} -->
         </div>
         <div class="row w-100 justify-content-center" id="email">
             {{$value.affiliation.email}}
