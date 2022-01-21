@@ -2,6 +2,21 @@
 
 publications:
     - publication:
+        latex: '\item \textit{Szlendak R., Tyurin A., Richtárik P.}  \normalfont Permutation Compressors for Provably Faster Distributed Nonconvex Optimization // In International Conference on Learning Representations. 2022. (ICLR 2022)'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2110.03300"
+    - publication:
+        latex: '\item \textit{Stonyakin F., Tyurin A., Gasnikov A., Dvurechensky P., Agafonov A., Dvinskikh D., Alkousa M., Pasechnyuk D., Artamonov S., Piskunova V.}  \normalfont Inexact model: a framework for optimization and variational inequalities // Optimization Methods and Software. 2021. P. 1-47.'
+        links:
+            - link: 
+                name: "Optimization Methods and Software"
+                url: "https://www.tandfonline.com/doi/full/10.1080/10556788.2021.1924714"
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2001.09013"
+    - publication:
         latex: '\item \textit{Dvurechensky P., Gasnikov A., Omelchenko A., Tyurin A.}  \normalfont A stable alternative to Sinkhorn’s algorithm for regularized optimal transport // Lecture Notes in Computer Science. 2020. V. 12095. P. 406-423.'
         links:
             - link: 
