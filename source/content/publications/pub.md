@@ -2,6 +2,30 @@
 
 publications:
     - publication:
+        latex: '\item \textit{Gruntkowska K., Tyurin A., Richtárik P.}  \normalfont EF21-P and Friends: Improved Theoretical Communication Complexity for Distributed Optimization with Bidirectional Compression // arXiv preprint arXiv:2209.15218'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2209.15218"
+    - publication:
+        latex: '\item \textit{Tyurin A., Sun L., Burlachenko K., Richtárik P.}  \normalfont Sharper Rates and Flexible Framework for Nonconvex SGD with Client and Data Sampling // arXiv preprint arXiv:2206.02275'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2206.02275"
+    - publication:
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont A Computation and Communication Efficient Method for Distributed Nonconvex Problems in the Partial Participation Setting // arXiv preprint arXiv:2205.15580'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2205.15580"
+    - publication:
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont DASHA: Distributed nonconvex optimization with communication compression, optimal oracle complexity, and no client synchronization // In International Conference on Learning Representations. 2022. (ICLR 2023)'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2202.01268"
+    - publication:
         latex: '\item \textit{Szlendak R., Tyurin A., Richtárik P.}  \normalfont Permutation Compressors for Provably Faster Distributed Nonconvex Optimization // In International Conference on Learning Representations. 2022. (ICLR 2022)'
         links:
             - link: 
