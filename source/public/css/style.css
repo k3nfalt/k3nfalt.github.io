@@ -37,6 +37,10 @@ body {
     margin: auto;
 }
 
+.w-100-gap {
+    margin-bottom: 30cm;
+}
+
 .main_color  {
     color: #186804;
 }
