@@ -70,9 +70,16 @@ jobs:
         start_date: '2015'
         end_date: '2018'
 
-publications:
-    - publication:
-        latex: '\item \textit{Dvurechensky P., Gasnikov A., Omelchenko A., Tyurin A.}  \normalfont A stable alternative to Sinkhorn’s algorithm for regularized optimal transport // Lecture Notes in Computer Science. 2020. V. 12095. P. 406--423.'
+reviews:
+    - review:
+        conf: ICML 2022*,
+    - review:
+        conf: NeurIPS 2022*,
+    - review:
+        conf: Machine Learning (journal),
+    - review:
+        conf: ICLR 2023
+        
 
 ---
 

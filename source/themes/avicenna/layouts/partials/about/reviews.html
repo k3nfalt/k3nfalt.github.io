@@ -1,0 +1,16 @@
+{{ $content_type := .Params.content_type }}
+
+{{ $aboutPage := .Site.GetPage $content_type }}
+
+{{ if or $aboutPage.Params.academia $aboutPage.Params.interests}}
+{{ if $aboutPage.Params.reviews }}
+<div class="reviews col ">
+    <span class="main_color" style="font-size: 120%">Review Duties:</span>
+        {{range $review := $aboutPage.Params.reviews }}
+            {{$review.review.conf}} 
+        {{end}}<br>
+    (*) = Best Reviewer Award
+</div>
+{{end}}
+
+{{end}}
