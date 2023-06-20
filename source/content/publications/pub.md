@@ -2,7 +2,25 @@
 
 publications:
     - publication:
-        latex: '\item \textit{Gruntkowska K., Tyurin A., Richtárik P.}  \normalfont EF21-P and Friends: Improved Theoretical Communication Complexity for Distributed Optimization with Bidirectional Compression // arXiv preprint arXiv:2209.15218'
+        latex: '\item \textit{Fatkhullin I., Tyurin A., Richtárik P.}  \normalfont Momentum Provably Improves Error Feedback! // arXiv preprint arXiv:2305.15155'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2305.15155"
+    - publication:
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont Optimal Time Complexities of Parallel Stochastic Optimization Methods Under a Fixed Computation Model // arXiv preprint arXiv:2305.12387'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2305.12387"
+    - publication:
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont 2Direction: Theoretically Faster Distributed Training with Bidirectional Communication Compression // arXiv preprint arXiv:2305.12379'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2305.12379"
+    - publication:
+        latex: '\item \textit{Gruntkowska K., Tyurin A., Richtárik P.}  \normalfont EF21-P and Friends: Improved Theoretical Communication Complexity for Distributed Optimization with Bidirectional Compression // In International Conference on Machine Learning. 2023. (ICML 2023)'
         links:
             - link: 
                 name: "arXiv"
