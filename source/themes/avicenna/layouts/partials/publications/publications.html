@@ -26,12 +26,14 @@
                 {{ $tmp4 := split $tmp3 "//"}}
                 {{ $publication_title := index $tmp4 0}}
                 {{ $journal_info := index $tmp4 1}}
+                {{ $index_pub := len $page.Params.publications}}
+                {{ $index_pub := sub $index_pub $index}}
 
 
                 <div class="section-1 w-100">
 
                     <span>
-                        [{{add $index 1}}]
+                        [{{$index_pub}}]
                     </span>
 
                     <span style="font-style: italic;">
