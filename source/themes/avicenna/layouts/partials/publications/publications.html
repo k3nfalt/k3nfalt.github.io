@@ -16,6 +16,7 @@
                 {{ $latex := $publication.publication.latex}}
                 
                 {{ $tmp1 := replace $latex "--" "-"}}
+                {{ $tmp1 := replace $tmp1 "\\" ""}}
                 {{ $tmp1 := split $tmp1 "textit{" }}
                 {{ $tmp1 := index $tmp1 1}}
                 {{ $tmp2 := split $tmp1 "}"}}

@@ -38,7 +38,7 @@ publications:
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2205.15580"
     - publication:
-        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont DASHA: Distributed nonconvex optimization with communication compression, optimal oracle complexity, and no client synchronization // In International Conference on Learning Representations. 2023. (ICLR 2023)'
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont DASHA: Distributed nonconvex optimization with communication compression, optimal oracle complexity, and no client synchronization // In International Conference on Learning Representations. 2023. (ICLR 2023) (notable-top-\25%)'
         links:
             - link: 
                 name: "arXiv"
