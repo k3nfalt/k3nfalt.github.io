@@ -4,6 +4,10 @@ body {
     color: #071013;
 }
 
+.boxed {
+    border: 1px solid green ;
+}
+
 .image {
     margin-left: 0;
     margin-right: 0;
@@ -14,11 +18,11 @@ body {
 
 .name_and_affilation {
     /* margin: auto; */
-    margin-left:15%;
+    margin-left:0%;
     margin-right:10%;
     margin-top:5%;
-    margin-bottom:5%;
-    width: 40%;
+    margin-bottom:0%;
+    width: 70%;
 }
 
 /* a {
@@ -35,10 +39,6 @@ body {
 
 .w-100 {
     margin: auto;
-}
-
-.w-100-gap {
-    margin-bottom: 30cm;
 }
 
 .main_color  {
