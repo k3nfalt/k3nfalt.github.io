@@ -2,19 +2,19 @@
 
 publications:
     - publication:
-        latex: '\item \textit{Fatkhullin I., Tyurin A., Richtárik P.}  \normalfont Momentum Provably Improves Error Feedback! // In Advances in Neural Information Processing Systems 36 (NeurIPS 2023)'
+        latex: '\item \textit{Fatkhullin I., Tyurin A., Richtárik P.}  \normalfont Momentum Provably Improves Error Feedback! // In Advances in Neural Information Processing Systems 37 (NeurIPS 2023)'
         links:
             - link: 
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2305.15155"
     - publication:
-        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont Optimal Time Complexities of Parallel Stochastic Optimization Methods Under a Fixed Computation Model // In Advances in Neural Information Processing Systems 36 (NeurIPS 2023)'
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont Optimal Time Complexities of Parallel Stochastic Optimization Methods Under a Fixed Computation Model // In Advances in Neural Information Processing Systems 37 (NeurIPS 2023)'
         links:
             - link: 
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2305.12387"
     - publication:
-        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont 2Direction: Theoretically Faster Distributed Training with Bidirectional Communication Compression // In Advances in Neural Information Processing Systems 36 (NeurIPS 2023)'
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont 2Direction: Theoretically Faster Distributed Training with Bidirectional Communication Compression // In Advances in Neural Information Processing Systems 37 (NeurIPS 2023)'
         links:
             - link: 
                 name: "arXiv"
@@ -32,7 +32,7 @@ publications:
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2206.02275"
     - publication:
-        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont A Computation and Communication Efficient Method for Distributed Nonconvex Problems in the Partial Participation Setting // In Advances in Neural Information Processing Systems 36 (NeurIPS 2023)'
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont A Computation and Communication Efficient Method for Distributed Nonconvex Problems in the Partial Participation Setting // In Advances in Neural Information Processing Systems 37 (NeurIPS 2023)'
         links:
             - link: 
                 name: "arXiv"
