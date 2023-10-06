@@ -50,6 +50,12 @@ publications:
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2110.03300"
     - publication:
+        latex: '\item \textit{Ivanova A., Dvurechensky P., Vorontsova E., Pasechnyuk D., Gasnikov A., Dvinskikh D., Tyurin A.}  \normalfont Oracle complexity separation in convex optimization // Journal of Optimization Theory and Applications. 2022.'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2002.02706"
+    - publication:
         latex: '\item \textit{Stonyakin F., Tyurin A., Gasnikov A., Dvurechensky P., Agafonov A., Dvinskikh D., Alkousa M., Pasechnyuk D., Artamonov S., Piskunova V.}  \normalfont Inexact model: a framework for optimization and variational inequalities // Optimization Methods and Software. 2021. P. 1-47.'
         links:
             - link: 
