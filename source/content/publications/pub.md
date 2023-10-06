@@ -26,7 +26,7 @@ publications:
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2209.15218"
     - publication:
-        latex: '\item \textit{Tyurin A., Sun L., Burlachenko K., Richtárik P.}  \normalfont Sharper Rates and Flexible Framework for Nonconvex SGD with Client and Data Sampling // arXiv preprint arXiv:2206.02275'
+        latex: '\item \textit{Tyurin A., Sun L., Burlachenko K., Richtárik P.}  \normalfont Sharper Rates and Flexible Framework for Nonconvex SGD with Client and Data Sampling // Transactions on Machine Learning Research. 2023. (TMLR 2023)'
         links:
             - link: 
                 name: "arXiv"
