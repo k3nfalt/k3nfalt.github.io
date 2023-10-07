@@ -44,6 +44,12 @@ publications:
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2202.01268"
     - publication:
+        latex: '\item \textit{Dvurechensky P., Gasnikov A., Tyurin A., Zholobov V.}  \normalfont Unifying Framework for Accelerated Randomized Methods in Convex Optimization // In Foundations of Modern Statistics, 2023'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/1707.08486"
+    - publication:
         latex: '\item \textit{Szlendak R., Tyurin A., Richtárik P.}  \normalfont Permutation Compressors for Provably Faster Distributed Nonconvex Optimization // In International Conference on Learning Representations. 2022. (ICLR 2022)'
         links:
             - link: 
