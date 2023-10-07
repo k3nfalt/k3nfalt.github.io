@@ -92,6 +92,12 @@ publications:
                 name: "arXiv (in Russian)"
                 url: "https://arxiv.org/abs/1906.10107"
     - publication:
+        latex: '\item \textit{Dvinskikh D., Tyurin A., Gasnikov A., Omelchenko S.} \normalfont Accelerated and nonaccelerated stochastic gradient descent with model conception // Mathematical Notes. 2020. V. 108. N. 4. P. 511--522 (main co-author).'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2001.03443"
+    - publication:
         latex: '\item \textit{Gasnikov A., Tyurin A.} \normalfont Fast gradient descent for convex minimization problems with an oracle producing a (delta, L)-model of function at the requested point   // Computational Mathematics and Mathematical Physics. 2019. V. 59. N. 7. P. 1085--1097. (main co-author; alphabetical order).'
         links:
             - link: 
