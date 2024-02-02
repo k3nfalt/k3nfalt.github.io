@@ -6,7 +6,7 @@ headless: true
 full_name: "Alexander Tyurin, Ph.D."
 profile_picture: "img.jpeg"
 cv: "Curriculum_Vitae.pdf"
-email: "alexandertiurin(at)gmail.com"
+email: "alexandertiurin@gmail.com"
 
 socials:
     google_scholar: "Es8-xocAAAAJ"
@@ -19,7 +19,7 @@ affiliations:
         title: "Postdoctoral Fellow"
         name: "KAUST"
         logo: "kaust-logo-white.png"
-        email: "alexander.tyurin(at)kaust.edu.sa"
+        email: "alexander.tyurin@kaust.edu.sa"
         url: https://www.kaust.edu.sa/en
 
 academia:
