@@ -2,19 +2,43 @@
 
 publications:
     - publication:
-        latex: '\item \textit{Fatkhullin I., Tyurin A., Richtárik P.}  \normalfont Momentum Provably Improves Error Feedback! // In Advances in Neural Information Processing Systems 37 (NeurIPS 2023)'
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont On the Optimal Time Complexities in Decentralized Stochastic Asynchronous Optimization // arXiv:2405.16218'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2405.16218"
+    - publication:
+        latex: '\item \textit{Tyurin A., Gruntkowska K., Richtárik P.}  \normalfont Freya PAGE: First Optimal Time Complexity for Large-Scale Nonconvex Finite-Sum Optimization with Heterogeneous Asynchronous Computations // arXiv:2405.15545'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2405.15545"
+    - publication:
+        latex: '\item \textit{Gruntkowska K., Tyurin A., Richtárik P.}  \normalfont Improving the Worst-Case Bidirectional Communication Complexity for Nonconvex Distributed Optimization under Function Similarity // arXiv:2402.06412'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2402.06412"
+    - publication:
+        latex: '\item \textit{Tyurin A., Pozzi M., Ilin I., Richtárik P.}  \normalfont Shadowheart SGD: Distributed Asynchronous SGD with Optimal Time Complexity Under Arbitrary Computation and Communication Heterogeneity // arXiv:2402.04785'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/abs/2402.04785"
+    - publication:
+        latex: '\item \textit{Fatkhullin I., Tyurin A., Richtárik P.}  \normalfont Momentum Provably Improves Error Feedback! // In Advances in Neural Information Processing Systems 36 (NeurIPS 2023)'
         links:
             - link: 
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2305.15155"
     - publication:
-        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont Optimal Time Complexities of Parallel Stochastic Optimization Methods Under a Fixed Computation Model // In Advances in Neural Information Processing Systems 37 (NeurIPS 2023)'
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont Optimal Time Complexities of Parallel Stochastic Optimization Methods Under a Fixed Computation Model // In Advances in Neural Information Processing Systems 36 (NeurIPS 2023)'
         links:
             - link: 
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2305.12387"
     - publication:
-        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont 2Direction: Theoretically Faster Distributed Training with Bidirectional Communication Compression // In Advances in Neural Information Processing Systems 37 (NeurIPS 2023)'
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont 2Direction: Theoretically Faster Distributed Training with Bidirectional Communication Compression // In Advances in Neural Information Processing Systems 36 (NeurIPS 2023)'
         links:
             - link: 
                 name: "arXiv"
@@ -32,7 +56,7 @@ publications:
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2206.02275"
     - publication:
-        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont A Computation and Communication Efficient Method for Distributed Nonconvex Problems in the Partial Participation Setting // In Advances in Neural Information Processing Systems 37 (NeurIPS 2023)'
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont A Computation and Communication Efficient Method for Distributed Nonconvex Problems in the Partial Participation Setting // In Advances in Neural Information Processing Systems 36 (NeurIPS 2023)'
         links:
             - link: 
                 name: "arXiv"
