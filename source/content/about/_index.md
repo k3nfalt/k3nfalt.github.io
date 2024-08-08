@@ -97,7 +97,7 @@ reviews:
 
 ---
 
-Hi! I am an Assistant Professor at [Skoltech][4] and a Senior Research Scientist/Team Leader at [AIRI][3]. I work on modern optimization and machine learning tasks. Previously, I defended my Ph.D. thesis at Higher School of Economics with my former supervisor, [Professor Alexander Gasnikov][2]. I was a postdoctoral fellow at KAUST, Visual Computing Center, working together with [Professor Peter Richtárik][1].
+Hi! I am an Assistant Professor at [Skoltech][4] and a Senior Research Scientist/Team Leader at [AIRI][3]. I work on modern optimization and machine learning tasks. Previously, I defended my Ph.D. thesis at Higher School of Economics with my former supervisor, [Professor Alexander Gasnikov][2]. I was a Postdoctoral Fellow at KAUST, Visual Computing Center, working together with [Professor Peter Richtárik][1].
 
 I also worked at Yandex Self-Driving Cars, Perception team, where I developed real-time computer vision algorithms for self-driving cars.
 
