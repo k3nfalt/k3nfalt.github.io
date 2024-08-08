@@ -19,7 +19,7 @@
     <div class="w-100 justify-content-center">
         {{ range $key, $value := $aboutPage.Params.affiliations }}
         <div class="row w-100 justify-content-center" id="title-name">
-            <p style="white-space: pre;">{{$value.affiliation.title}}, </p>
+            <a style="white-space: pre;">{{$value.affiliation.title}}, </a>
             <a class="url_color text-decoration-none rounded " href="{{$value.affiliation.url}}" target="_blank">
                 {{$value.affiliation.name}}
             </a>
@@ -27,8 +27,6 @@
         <div class="row w-100 justify-content-center" id="email">
             {{$value.affiliation.email}}
         </div>
-
-
         {{ end }}
     </div>
 </div>

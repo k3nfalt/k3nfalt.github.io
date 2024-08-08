@@ -18,8 +18,11 @@ affiliations:
     - affiliation:
         title: "Senior Research Scientist/Team Leader"
         name: "AIRI"
-        logo: "kaust-logo-white.png"
         url: https://airi.net/?force=en
+    - affiliation:
+        title: "Assistant Professor"
+        name: "Skoltech"
+        url: https://new.skoltech.ru/en/
 
 academia:
     - course:
@@ -88,15 +91,17 @@ reviews:
     - review:
         conf: NeurIPS 2023,
     - review:
-        conf: ICML 2024
+        conf: ICML 2024,
+    - review:
+        conf: NeurIPS 2024
 
 ---
 
-Hi! I am a senior research scientist/team leader at [AIRI][3], where I work on modern optimization tasks.
-Previously, I defended my Ph.D. thesis at Higher School of Economics with my former supervisor, [Professor Alexander Gasnikov][2]. I was a postdoctoral fellow at KAUST, Visual Computing Center, working together with [Professor Peter Richtárik][1].
+Hi! I am an Assistant Professor at [Skoltech][4] and a Senior Research Scientist/Team Leader at [AIRI][3]. I work on modern optimization and machine learning tasks. Previously, I defended my Ph.D. thesis at Higher School of Economics with my former supervisor, [Professor Alexander Gasnikov][2]. I was a postdoctoral fellow at KAUST, Visual Computing Center, working together with [Professor Peter Richtárik][1].
 
 I also worked at Yandex Self-Driving Cars, Perception team, where I developed real-time computer vision algorithms for self-driving cars.
 
 [1]: https://richtarik.org
 [2]: https://scholar.google.ru/citations?user=AmeE8qkAAAAJ
 [3]: https://airi.net/?force=en
+[4]: https://new.skoltech.ru/en/
