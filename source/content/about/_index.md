@@ -48,31 +48,36 @@ academia:
 
 jobs:
     - job:
-        position: "Senior research scientist/Team leader"
+        position: "Assistant Professor"
+        name: "Skoltech"
+        start_date: '2024'
+        end_date: 'present'
+    - job:
+        position: "Senior Research Scientist/Team Leader"
         name: "AIRI"
         start_date: '2024'
         end_date: 'present'
     - job:
-        position: "Postdoctoral fellow"
+        position: "Postdoctoral Fellow"
         name: "KAUST, Visual Computing Center"
         start_date: '2021'
         end_date: '2024'
     - job:
-        position: "Research and development engineer"
+        position: "Research and Development Engineer"
         name: "Yandex Self-Driving Cars"
         start_date: '2018'
         end_date: '2021'
     - job:
-        position: "Junior research fellow"
+        position: "Junior Research Fellow"
         name: "Higher School of Economics, HDI LAB"
         start_date: '2017'
         end_date: '2021'
     - job:
-        position: "Research engineer"
+        position: "Research Engineer"
         name: "Alterra.ai"
         start_date: '2018'
     - job:
-        position: "Research engineer"
+        position: "Research Engineer"
         name: "VisionLabs"
         start_date: '2015'
         end_date: '2018'
