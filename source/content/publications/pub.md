@@ -2,25 +2,37 @@
 
 publications:
     - publication:
-        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont On the Optimal Time Complexities in Decentralized Stochastic Asynchronous Optimization // arXiv:2405.16218'
+        latex: '\item \textit{Tyurin A.}  \normalfont Tight Time Complexities in Parallel Stochastic Optimization with Arbitrary Computation Dynamics // arXiv:2408.04929'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2408.04929"
+    - publication:
+        latex: '\item \textit{Anyszka W., Gruntkowska K., Tyurin A., Richtárik P.}  \normalfont Tighter Performance Theory of FedExProx // arXiv:2410.15368'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2410.15368"
+    - publication:
+        latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont On the Optimal Time Complexities in Decentralized Stochastic Asynchronous Optimization // In Advances in Neural Information Processing Systems 37 (NeurIPS 2024)'
         links:
             - link: 
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2405.16218"
     - publication:
-        latex: '\item \textit{Tyurin A., Gruntkowska K., Richtárik P.}  \normalfont Freya PAGE: First Optimal Time Complexity for Large-Scale Nonconvex Finite-Sum Optimization with Heterogeneous Asynchronous Computations // arXiv:2405.15545'
+        latex: '\item \textit{Tyurin A., Gruntkowska K., Richtárik P.}  \normalfont Freya PAGE: First Optimal Time Complexity for Large-Scale Nonconvex Finite-Sum Optimization with Heterogeneous Asynchronous Computations // In Advances in Neural Information Processing Systems 37 (NeurIPS 2024)'
         links:
             - link: 
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2405.15545"
     - publication:
-        latex: '\item \textit{Gruntkowska K., Tyurin A., Richtárik P.}  \normalfont Improving the Worst-Case Bidirectional Communication Complexity for Nonconvex Distributed Optimization under Function Similarity // arXiv:2402.06412'
+        latex: '\item \textit{Gruntkowska K., Tyurin A., Richtárik P.}  \normalfont Improving the Worst-Case Bidirectional Communication Complexity for Nonconvex Distributed Optimization under Function Similarity // In Advances in Neural Information Processing Systems 37 (NeurIPS 2024)'
         links:
             - link: 
                 name: "arXiv"
                 url: "https://arxiv.org/abs/2402.06412"
     - publication:
-        latex: '\item \textit{Tyurin A., Pozzi M., Ilin I., Richtárik P.}  \normalfont Shadowheart SGD: Distributed Asynchronous SGD with Optimal Time Complexity Under Arbitrary Computation and Communication Heterogeneity // arXiv:2402.04785'
+        latex: '\item \textit{Tyurin A., Pozzi M., Ilin I., Richtárik P.}  \normalfont Shadowheart SGD: Distributed Asynchronous SGD with Optimal Time Complexity Under Arbitrary Computation and Communication Heterogeneity // In Advances in Neural Information Processing Systems 37 (NeurIPS 2024)'
         links:
             - link: 
                 name: "arXiv"

@@ -13,4 +13,13 @@
 </div>
 {{end}}
 
+{{ if $aboutPage.Params.courses }}
+<div class="courses col ">
+    <span class="main_color" style="font-size: 120%">Teaching:</span>
+        {{range $course := $aboutPage.Params.courses }}
+            {{$course.course.index}}, {{$course.course.name}} ({{$course.course.years}})
+        {{end}}<br>
+</div>
+{{end}}
+
 {{end}}

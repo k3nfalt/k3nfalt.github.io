@@ -98,7 +98,15 @@ reviews:
     - review:
         conf: ICML 2024,
     - review:
-        conf: NeurIPS 2024
+        conf: NeurIPS 2024, 
+    - review:
+        conf: ICLR 2025
+
+courses:
+    - course:
+        index: MA030632, Skoltech
+        name: Optimization Methods in Machine Learning
+        years: 2024
 
 ---
 
