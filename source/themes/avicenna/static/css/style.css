@@ -41,8 +41,12 @@ body {
     margin: auto;
 }
 
-.main_color  {
+/* .main_color  {
     color: #186804;
+} */
+
+.main_color  {
+    color: #505150;
 }
 
 .url_color  {
