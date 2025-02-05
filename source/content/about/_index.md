@@ -88,8 +88,6 @@ reviews:
     - review:
         conf: NeurIPS 2022*,
     - review:
-        conf: Machine Learning (journal),
-    - review:
         conf: ICLR 2023,
     - review:
         conf: ICML 2023,
@@ -100,7 +98,13 @@ reviews:
     - review:
         conf: NeurIPS 2024, 
     - review:
-        conf: ICLR 2025
+        conf: ICLR 2025,
+    - review:
+        conf: Machine Learning (journal),
+    - review:
+        conf: JMLR,
+    - review:
+        conf: JOTA
 
 courses:
     - course:

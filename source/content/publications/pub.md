@@ -2,11 +2,29 @@
 
 publications:
     - publication:
-        latex: '\item \textit{Tyurin A.}  \normalfont Tight Time Complexities in Parallel Stochastic Optimization with Arbitrary Computation Dynamics // arXiv:2408.04929'
+        latex: '\item \textit{Maranjyan A., Tyurin A., Richtárik P.}  \normalfont Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity // arXiv:2501.16168'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2501.16168"
+    - publication:
+        latex: '\item \textit{Tyurin A.}  \normalfont Toward a Unified Theory of Gradient Descent under Generalized Smoothness // arXiv:2412.11773'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2412.11773"
+    - publication:
+        latex: '\item \textit{Tyurin A.}  \normalfont Tight Time Complexities in Parallel Stochastic Optimization with Arbitrary Computation Dynamics // In International Conference on Learning Representations. 2025. (ICLR 2025)'
         links:
             - link: 
                 name: "arXiv"
                 url: "https://arxiv.org/pdf/2408.04929"
+    - publication:
+        latex: '\item \textit{Tyurin A.}  \normalfont From Logistic Regression to the Perceptron Algorithm: Exploring Gradient Descent with Large Step Sizes // In Association for the Advancement of Artificial Intelligence. 2025. (AAAI 2025)'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2412.08424"
     - publication:
         latex: '\item \textit{Anyszka W., Gruntkowska K., Tyurin A., Richtárik P.}  \normalfont Tighter Performance Theory of FedExProx // arXiv:2410.15368'
         links:
