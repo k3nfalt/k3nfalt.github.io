@@ -100,6 +100,8 @@ reviews:
     - review:
         conf: ICLR 2025,
     - review:
+        conf: ICML 2025,
+    - review:
         conf: Machine Learning (journal),
     - review:
         conf: JMLR,

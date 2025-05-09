@@ -2,13 +2,13 @@
 
 publications:
     - publication:
-        latex: '\item \textit{Maranjyan A., Tyurin A., Richtárik P.}  \normalfont Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity // arXiv:2501.16168'
+        latex: '\item \textit{Maranjyan A., Tyurin A., Richtárik P.}  \normalfont Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity // In International Conference on Machine Learning. 2025. (ICML 2025)'
         links:
             - link: 
                 name: "arXiv"
                 url: "https://arxiv.org/pdf/2501.16168"
     - publication:
-        latex: '\item \textit{Tyurin A.}  \normalfont Toward a Unified Theory of Gradient Descent under Generalized Smoothness // arXiv:2412.11773'
+        latex: '\item \textit{Tyurin A.}  \normalfont Toward a Unified Theory of Gradient Descent under Generalized Smoothness //  In International Conference on Machine Learning. 2025. (ICML 2025)'
         links:
             - link: 
                 name: "arXiv"
