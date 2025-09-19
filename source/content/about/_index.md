@@ -5,7 +5,7 @@ headless: true
 
 full_name: "Alexander Tyurin, Ph.D."
 profile_picture: "img.jpeg"
-cv: "Curriculum_Vitae.pdf"
+# cv: "Curriculum_Vitae.pdf"
 email: "alexandertiurin@gmail.com"
 
 socials:
