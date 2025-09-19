@@ -118,7 +118,9 @@ courses:
 
 <!-- Hi! I am an Independent Researcher. Definitely *not* an Assistant Professor at [Skoltech][4], and absolutely *not* a Senior Research Scientist/Team Leader at [AIRI][3]. I am just a dilettante in modern optimization and machine learning. -->
 
-Hi! I am an Independent Researcher. Just a casual dilettante dabbling in modern optimization and machine learning --- nothing serious at all.
+<!-- Hi! I am an Independent Researcher. Just a casual dilettante dabbling in modern optimization and machine learning --- nothing serious at all. -->
+
+Hi! I am an Independent Researcher, casually working in modern optimization and machine learning.
 
 Previously, I defended my Ph.D. thesis at Higher School of Economics with my former supervisor, [Professor Alexander Gasnikov][2]. I was a Postdoctoral Fellow at KAUST, Visual Computing Center, working together with [Professor Peter Richtárik][1].
 
