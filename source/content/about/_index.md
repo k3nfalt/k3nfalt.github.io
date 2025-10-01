@@ -120,7 +120,7 @@ courses:
 
 <!-- Hi! I am an Independent Researcher. Just a casual dilettante dabbling in modern optimization and machine learning --- nothing serious at all. -->
 
-Hi! I am an Independent Researcher, casually working in modern optimization and machine learning.
+Hi! I am a Principal Researcher at Opta in Moscow, Russia, where I work on modern optimization and machine learning.
 
 Previously, I defended my Ph.D. thesis at Higher School of Economics with my former supervisor, [Professor Alexander Gasnikov][2]. I was a Postdoctoral Fellow at KAUST, Visual Computing Center, working together with [Professor Peter Richtárik][1].
 
