@@ -2,6 +2,36 @@
 
 publications:
     - publication:
+        latex: '\item \textit{Tyurin A., Spiridonov A., Rudenko V.} \normalfont Asynchronous Policy Gradient Aggregation for Efficient Distributed Reinforcement Learning // In International Conference on Learning Representations. 2026. (ICLR 2026)'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2509.24305"
+    - publication:
+        latex: '\item \textit{Tyurin A.} \normalfont Proving the Limited Scalability of Centralized Distributed Optimization via a New Lower Bound Construction // In International Conference on Learning Representations. 2026. (ICLR 2026)'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2506.23836"
+    - publication:
+        latex: '\item \textit{Persiianov M., Chen J., Mokrov P., Tyurin A., Burnaev E., Korotin A.} \normalfont Learning of Population Dynamics: Inverse Optimization Meets JKO Scheme // In International Conference on Learning Representations. 2026. (ICLR 2026)'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2506.01502"
+    - publication:
+        latex: '\item \textit{Tyurin A., Sivtsov D.} \normalfont Birch SGD: A Tree Graph Framework for Local and Asynchronous SGD Methods // In International Conference on Learning Representations. 2026. (ICLR 2026)'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2505.09218"
+    - publication:
+        latex: '\item \textit{Anyszka W., Gruntkowska K., Tyurin A., Richtárik P.}  \normalfont Tighter Performance Theory of FedExProx // In International Conference on Learning Representations. 2026. (ICLR 2026)'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2410.15368"
+    - publication:
         latex: '\item \textit{Maranjyan A., Tyurin A., Richtárik P.}  \normalfont Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity // In International Conference on Machine Learning. 2025. (ICML 2025)'
         links:
             - link: 
@@ -25,12 +55,6 @@ publications:
             - link: 
                 name: "arXiv"
                 url: "https://arxiv.org/pdf/2412.08424"
-    - publication:
-        latex: '\item \textit{Anyszka W., Gruntkowska K., Tyurin A., Richtárik P.}  \normalfont Tighter Performance Theory of FedExProx // arXiv:2410.15368'
-        links:
-            - link: 
-                name: "arXiv"
-                url: "https://arxiv.org/pdf/2410.15368"
     - publication:
         latex: '\item \textit{Tyurin A., Richtárik P.}  \normalfont On the Optimal Time Complexities in Decentralized Stochastic Asynchronous Optimization // In Advances in Neural Information Processing Systems 37 (NeurIPS 2024)'
         links:
