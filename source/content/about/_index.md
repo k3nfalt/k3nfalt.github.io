@@ -108,7 +108,9 @@ reviews:
     - review:
         conf: JOTA,
     - review:
-        conf: NeurIPS 2025
+        conf: NeurIPS 2025,
+    - review:
+        conf: ICML 2026
 
 area_chair_duties:
     - duty:
