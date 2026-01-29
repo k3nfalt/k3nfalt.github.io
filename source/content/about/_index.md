@@ -106,7 +106,13 @@ reviews:
     - review:
         conf: JMLR,
     - review:
-        conf: JOTA
+        conf: JOTA,
+    - review:
+        conf: NeurIPS 2025
+
+area_chair_duties:
+    - duty:
+        conf: ICLR 2026
 
 courses:
     - course:

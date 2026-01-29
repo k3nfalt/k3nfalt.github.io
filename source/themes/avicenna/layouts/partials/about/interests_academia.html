@@ -56,6 +56,31 @@
         </div>
     </div>
     {{end}}
+    {{ if or $aboutPage.Params.area_chair_duties $aboutPage.Params.reviews }}
+    <div class="area-chair-duties" style="margin-top: 3rem;">
+        {{ if $aboutPage.Params.area_chair_duties }}
+        <span class="main_color" style="font-size: 120%">Area Chair:</span>
+            {{range $duty := $aboutPage.Params.area_chair_duties }}
+                {{$duty.duty.conf}}
+            {{end}}<br>
+        {{end}}
+        {{ if $aboutPage.Params.reviews }}
+        <span class="main_color" style="font-size: 120%">Review Duties:</span>
+            {{range $review := $aboutPage.Params.reviews }}
+                {{$review.review.conf}}
+            {{end}}<br>
+        (*) = Best Reviewer Award
+        {{end}}
+    </div>
+    {{end}}
+    {{ if $aboutPage.Params.courses }}
+    <div class="courses" style="margin-top: 1rem;">
+        <span class="main_color" style="font-size: 120%">Teaching:</span>
+            {{range $course := $aboutPage.Params.courses }}
+                {{$course.course.index}}, {{$course.course.name}} ({{$course.course.years}})
+            {{end}}<br>
+    </div>
+    {{end}}
 </div>
 {{end}}
 

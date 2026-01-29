@@ -3,25 +3,5 @@
 {{ $aboutPage := .Site.GetPage $content_type }}
 
 {{ if or $aboutPage.Params.academia $aboutPage.Params.interests}}
-{{ if $aboutPage.Params.reviews }}
-<div class="reviews col ">
-    <span class="main_color" style="font-size: 120%">Review Duties:</span>
-        {{range $review := $aboutPage.Params.reviews }}
-            {{$review.review.conf}} 
-        {{end}}<br>
-    (*) = Best Reviewer Award
-</div>
-{{end}}
-
-{{ if $aboutPage.Params.courses }}
-<div class="courses col ">
-    <span class="main_color" style="font-size: 120%">Teaching:</span>
-        {{range $course := $aboutPage.Params.courses }}
-            {{$course.course.index}}, {{$course.course.name}} ({{$course.course.years}})
-        {{end}}<br>
-</div>
-{{end}}
-
 <div id="publications" class="publications row w-100"></div>
-
 {{end}}
