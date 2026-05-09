@@ -2,6 +2,18 @@
 
 publications:
     - publication:
+        latex: '\item \textit{Tyurin A.} \normalfont Gradient Descent as a Perceptron Algorithm: Understanding Dynamics and Implicit Acceleration // In International Conference on Machine Learning. 2026. (ICML 2026)'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2512.11587"
+    - publication:
+        latex: '\item \textit{Tyurin A.} \normalfont Near-Optimal Convergence of Accelerated Gradient Methods under Generalized and (L0,L1)-Smoothness // In International Conference on Machine Learning. 2026. (ICML 2026)'
+        links:
+            - link: 
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2508.06884"
+    - publication:
         latex: '\item \textit{Tyurin A., Spiridonov A., Rudenko V.} \normalfont Asynchronous Policy Gradient Aggregation for Efficient Distributed Reinforcement Learning // In International Conference on Learning Representations. 2026. (ICLR 2026)'
         links:
             - link: 

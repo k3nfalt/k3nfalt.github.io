@@ -84,37 +84,23 @@ jobs:
 
 reviews:
     - review:
-        conf: ICML 2022*,
+        conf: ICML 2022*,2023-2026;
     - review:
-        conf: NeurIPS 2022*,
+        conf: NeurIPS 2022*,2023-2025;
     - review:
-        conf: ICLR 2023,
+        conf: ICLR 2023, 2025;
     - review:
-        conf: ICML 2023,
+        conf: Machine Learning (journal);
     - review:
-        conf: NeurIPS 2023,
+        conf: JMLR;
     - review:
-        conf: ICML 2024,
-    - review:
-        conf: NeurIPS 2024, 
-    - review:
-        conf: ICLR 2025,
-    - review:
-        conf: ICML 2025,
-    - review:
-        conf: Machine Learning (journal),
-    - review:
-        conf: JMLR,
-    - review:
-        conf: JOTA,
-    - review:
-        conf: NeurIPS 2025,
-    - review:
-        conf: ICML 2026
+        conf: JOTA
 
 area_chair_duties:
     - duty:
-        conf: ICLR 2026
+        conf: ICLR 2026,
+    - duty:
+        conf: NeurIPS 2026
 
 courses:
     - course:
