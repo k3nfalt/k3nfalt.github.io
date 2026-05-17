@@ -84,7 +84,7 @@ jobs:
 
 reviews:
     - review:
-        conf: ICML 2022*,2023-2026;
+        conf: ICML 2022*,2023-2025,2026*;
     - review:
         conf: NeurIPS 2022*,2023-2025;
     - review:
