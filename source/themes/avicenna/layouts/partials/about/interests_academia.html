@@ -77,7 +77,7 @@
     <div class="courses" style="margin-top: 1rem;">
         <span class="main_color" style="font-size: 120%">Teaching:</span>
             {{range $course := $aboutPage.Params.courses }}
-                {{$course.course.index}}, {{$course.course.name}} ({{$course.course.years}})
+                {{$course.course.index}}, {{$course.course.name}} ({{$course.course.years}});
             {{end}}<br>
     </div>
     {{end}}

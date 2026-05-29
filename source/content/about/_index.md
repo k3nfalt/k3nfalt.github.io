@@ -107,6 +107,10 @@ courses:
         index: MA030632, Skoltech
         name: Optimization Methods in Machine Learning
         years: 2024
+    - course:
+        index: MA060776, Skoltech
+        name: Advanced Optimization Methods
+        years: 2025
 
 ---
 
