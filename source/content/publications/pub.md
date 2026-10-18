@@ -2,6 +2,20 @@
 
 publications:
     - publication:
+        latex: '\item \textit{Begunov G., Tyurin A.} \normalfont Scalable Distributed Stochastic Optimization via Bidirectional Compression: Beyond Pessimistic Limits // In Advances in Neural Information Processing Systems. 2026. (NeurIPS 2026)'
+        links:
+            - link:
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2605.07795"
+    - publication:
+        latex: '\item \textit{Begunov G., Tyurin A.} \normalfont Do We Need Asynchronous SGD? On the Near-Optimality of Synchronous Methods // In Advances in Neural Information Processing Systems. 2026. (NeurIPS 2026, oral)'
+        links:
+            - link:
+                name: "arXiv"
+                url: "https://arxiv.org/pdf/2602.03802"
+    - publication:
+        latex: '\item \textit{Sokolov I., Tyurin A., Richtárik P.} \normalfont Rennala-NSGD: Asynchronous Stochastic Optimization Beyond Euclidean Geometry // In Advances in Neural Information Processing Systems. 2026. (NeurIPS 2026)'
+    - publication:
         latex: '\item \textit{Tyurin A.} \normalfont Gradient Descent as a Perceptron Algorithm: Understanding Dynamics and Implicit Acceleration // In International Conference on Machine Learning. 2026. (ICML 2026)'
         links:
             - link: 

@@ -98,7 +98,7 @@ reviews:
 
 area_chair_duties:
     - duty:
-        conf: ICLR 2026,
+        conf: ICLR 2026-2027,
     - duty:
         conf: NeurIPS 2026
 
