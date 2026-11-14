@@ -27,7 +27,6 @@ function e(e){return Array.isArray?Array.isArray(e):u(e)===`[object Array]`}func
       }
       return loaded.get(setup.id);
     }
-    document.getElementById('github-link').href = data.repository_url + '/blob/main/README.md';
     const make = (tag, text, className) => {
       const element = document.createElement(tag);
       if (text !== undefined) element.textContent = text;
