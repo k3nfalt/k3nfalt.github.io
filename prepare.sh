@@ -7,6 +7,7 @@ if [ "${1:-}" = "update-longtail" ]; then
         echo "Build LongTails first: cd ~/repos/longtails && python3 -m server.build --render-only" >&2
         exit 1
     fi
+    rm -rf source/static/longtails longtails
     mkdir -p source/static/longtails
     rsync -a --delete "$site/" source/static/longtails/
     mkdir -p longtails
