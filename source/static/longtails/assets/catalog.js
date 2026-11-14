@@ -241,9 +241,14 @@ function e(e){return Array.isArray?Array.isArray(e):u(e)===`[object Array]`}func
     };
     const search = new Fuse(data.setups, {...searchOptions, keys: ['searchText']});
     function matchingSetups(query) {
-      return new Set(query.trim()
-        ? search.search(query.replace(/_/g, ' ')).map(result => result.item)
-        : data.setups);
+      const phrases = [];
+      const fuzzy = query.replace(/"([^"]*)"/g, (_, phrase) => {
+        phrase = phrase.replace(/_/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
+        if (phrase) phrases.push(phrase);
+        return ' ';
+      }).replaceAll('"', '').replace(/_/g, ' ').trim();
+      const matches = fuzzy ? search.search(fuzzy).map(result => result.item) : data.setups;
+      return new Set(matches.filter(setup => phrases.every(phrase => setup.searchText.includes(phrase))));
     }
     const highlightIndexes = new WeakMap();
     const searchHighlights = globalThis.Highlight ? new Highlight() : null;
@@ -277,7 +282,7 @@ function e(e){return Array.isArray?Array.isArray(e):u(e)===`[object Array]`}func
         highlightIndexes.set(card, new Fuse(texts, {...searchOptions,
           keys: ['text'], tokenMatch: 'any', includeMatches: true, findAllMatches: true}));
       }
-      for (const {item, matches} of highlightIndexes.get(card).search(query.replace(/_/g, ' '))) {
+      for (const {item, matches} of highlightIndexes.get(card).search(query.replaceAll('"', '').replace(/_/g, ' '))) {
         for (const match of matches || []) {
           for (const [start, end] of match.indices) {
             const range = document.createRange();
