@@ -2512,6 +2512,16 @@ mjx-c.mjx-c4D::before {
   content: "M";
 }
 
+mjx-c.mjx-c2308.TEX-S2::before {
+  padding: 1.15em 0.528em 0.649em 0;
+  content: "\2308";
+}
+
+mjx-c.mjx-c2309.TEX-S2::before {
+  padding: 1.15em 0.528em 0.649em 0;
+  content: "\2309";
+}
+
 mjx-c.mjx-c56::before {
   padding: 0.683em 0.75em 0.022em 0;
   content: "V";
@@ -2587,14 +2597,14 @@ mjx-c.mjx-c43.TEX-C::before {
   content: "C";
 }
 
-mjx-c.mjx-c2308.TEX-S2::before {
-  padding: 1.15em 0.528em 0.649em 0;
-  content: "\2308";
+mjx-c.mjx-c230A.TEX-S4::before {
+  padding: 1.75em 0.639em 1.249em 0;
+  content: "\230A";
 }
 
-mjx-c.mjx-c2309.TEX-S2::before {
-  padding: 1.15em 0.528em 0.649em 0;
-  content: "\2309";
+mjx-c.mjx-c230B.TEX-S4::before {
+  padding: 1.75em 0.639em 1.249em 0;
+  content: "\230B";
 }
 
 mjx-c.mjx-c5B.TEX-S4::before {
@@ -2620,6 +2630,16 @@ mjx-c.mjx-c47.TEX-C::before {
 mjx-c.mjx-c1D711.TEX-I::before {
   padding: 0.442em 0.654em 0.218em 0;
   content: "\3C6";
+}
+
+mjx-c.mjx-c230A.TEX-S2::before {
+  padding: 1.15em 0.528em 0.649em 0;
+  content: "\230A";
+}
+
+mjx-c.mjx-c230B.TEX-S2::before {
+  padding: 1.15em 0.528em 0.649em 0;
+  content: "\230B";
 }
 
 mjx-c.mjx-c28.TEX-B::before {
@@ -2707,16 +2727,6 @@ mjx-c.mjx-c44::before {
   content: "D";
 }
 
-mjx-c.mjx-c230A.TEX-S4::before {
-  padding: 1.75em 0.639em 1.249em 0;
-  content: "\230A";
-}
-
-mjx-c.mjx-c230B.TEX-S4::before {
-  padding: 1.75em 0.639em 1.249em 0;
-  content: "\230B";
-}
-
 mjx-c.mjx-c2006::before {
   padding: 0 0.167em 0 0;
   content: "";
@@ -2725,6 +2735,16 @@ mjx-c.mjx-c2006::before {
 mjx-c.mjx-c2299::before {
   padding: 0.583em 0.778em 0.083em 0;
   content: "\2299";
+}
+
+mjx-c.mjx-c59.TEX-C::before {
+  padding: 0.683em 0.714em 0.143em 0;
+  content: "Y";
+}
+
+mjx-c.mjx-c27F6::before {
+  padding: 0.511em 1.638em 0.011em 0;
+  content: "\27F6";
 }
 
 mjx-c.mjx-c27FC::before {

@@ -148,8 +148,9 @@ function e(e){return Array.isArray?Array.isArray(e):u(e)===`[object Array]`}func
         const filename = theorem.module.split('.').pop() + '.lean';
         const title = make('div', undefined, 'budget-name');
         title.append(sourceLink(theorem.module.replaceAll('.', '/') + '.lean', filename));
-        const kind = theorem.kind || (theorem.statement.includes('OracleTemplate.NonConvergence ') ? 'lower' : theorem.statement.includes('OracleTemplate.OnlineConvergence ') ? 'online' : 'upper');
+        const kind = theorem.kind || (theorem.statement.includes('OracleTemplate.NonConvergence ') ? 'lower' : theorem.statement.includes('OracleTemplate.OnlineConvergence ') ? 'online' : theorem.statement.includes('DistributedTemplate.TimedConvergence ') ? 'timed' : 'upper');
         if (kind === 'online') title.append(' — Online guarantee');
+        if (kind === 'timed') title.append(' — Elapsed-time upper bound');
         const score = theorem.contribution;
         const rating = make('span', score == null ? 'Not rated' : '★'.repeat(score) + '☆'.repeat(3 - score), 'result-rating');
         rating.setAttribute('aria-label', score == null ? 'Contribution not rated' : `Contribution: ${score} out of 3 stars`);
@@ -232,6 +233,7 @@ function e(e){return Array.isArray?Array.isArray(e):u(e)===`[object Array]`}func
       return {setup, card};
     }
     document.getElementById('framework-source').append(sourceView('LongTails/Template.lean', data.template));
+    document.getElementById('framework-source').append(sourceView('LongTails/TemplateDistributed.lean', data.distributedTemplate));
     const searchOptions = {
       useTokenSearch: true,
       tokenMatch: 'all',
