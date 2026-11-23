@@ -691,6 +691,11 @@ mjx-sqrt.mjx-tall > mjx-box {
   margin-left: -.3em;
 }
 
+mjx-mroot {
+  display: inline-block;
+  text-align: left;
+}
+
 mjx-c::before {
   display: block;
   width: 0;
@@ -1131,30 +1136,6 @@ mjx-stretchy-v.mjx-c2016 mjx-ext mjx-c::before {
   width: 0.556em;
 }
 
-mjx-stretchy-h.mjx-c23DF mjx-beg mjx-c::before {
-  content: "\E152";
-  padding: 0.32em 0 0.2em 0;
-}
-
-mjx-stretchy-h.mjx-c23DF mjx-ext mjx-c::before {
-  content: "\E154";
-  padding: 0.32em 0 0.2em 0;
-}
-
-mjx-stretchy-h.mjx-c23DF mjx-end mjx-c::before {
-  content: "\E153";
-  padding: 0.32em 0 0.2em 0;
-}
-
-mjx-stretchy-h.mjx-c23DF mjx-mid mjx-c::before {
-  content: "\E151\E150";
-  padding: 0.32em 0 0.2em 0;
-}
-
-mjx-stretchy-h.mjx-c23DF > mjx-ext {
-  width: 50%;
-}
-
 mjx-stretchy-v.mjx-c230A mjx-ext mjx-c::before {
   content: "\23A2";
   width: 0.667em;
@@ -1189,6 +1170,30 @@ mjx-stretchy-v.mjx-c230B > mjx-end {
 
 mjx-stretchy-v.mjx-c230B > mjx-ext {
   border-bottom-width: 1.769em;
+}
+
+mjx-stretchy-h.mjx-c23DF mjx-beg mjx-c::before {
+  content: "\E152";
+  padding: 0.32em 0 0.2em 0;
+}
+
+mjx-stretchy-h.mjx-c23DF mjx-ext mjx-c::before {
+  content: "\E154";
+  padding: 0.32em 0 0.2em 0;
+}
+
+mjx-stretchy-h.mjx-c23DF mjx-end mjx-c::before {
+  content: "\E153";
+  padding: 0.32em 0 0.2em 0;
+}
+
+mjx-stretchy-h.mjx-c23DF mjx-mid mjx-c::before {
+  content: "\E151\E150";
+  padding: 0.32em 0 0.2em 0;
+}
+
+mjx-stretchy-h.mjx-c23DF > mjx-ext {
+  width: 50%;
 }
 
 mjx-c.mjx-c1D453.TEX-I::before {
@@ -2601,6 +2606,11 @@ mjx-c.mjx-c230B.TEX-S4::before {
   content: "\230B";
 }
 
+mjx-c.mjx-c2227::before {
+  padding: 0.598em 0.667em 0.022em 0;
+  content: "\2227";
+}
+
 mjx-c.mjx-c4E::before {
   padding: 0.683em 0.75em 0 0;
   content: "N";
@@ -2609,11 +2619,6 @@ mjx-c.mjx-c4E::before {
 mjx-c.mjx-c22C2.TEX-S1::before {
   padding: 0.75em 0.833em 0.249em 0;
   content: "\22C2";
-}
-
-mjx-c.mjx-c2227::before {
-  padding: 0.598em 0.667em 0.022em 0;
-  content: "\2227";
 }
 
 mjx-c.mjx-c2224.TEX-A::before {
@@ -2718,6 +2723,16 @@ mjx-c.mjx-c230A.TEX-S2::before {
 
 mjx-c.mjx-c230B.TEX-S2::before {
   padding: 1.15em 0.528em 0.649em 0;
+  content: "\230B";
+}
+
+mjx-c.mjx-c230A.TEX-S1::before {
+  padding: 0.85em 0.472em 0.349em 0;
+  content: "\230A";
+}
+
+mjx-c.mjx-c230B.TEX-S1::before {
+  padding: 0.85em 0.472em 0.349em 0;
   content: "\230B";
 }
 
